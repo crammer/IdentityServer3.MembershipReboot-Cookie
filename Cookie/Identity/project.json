@@ -1,0 +1,76 @@
+{
+  "version": "1.0.0-*",
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Autofac": "4.0.0-rc1-177",
+    "Autofac.Extensions.DependencyInjection": "4.0.0-rc1-177",
+    "Autofac.Owin": "4.0.0-beta7-223",
+    "BrockAllen.MembershipReboot": "8.4.0",
+    "BrockAllen.MembershipReboot.Ef": "8.0.0",
+    "BrockAllen.MembershipReboot.Owin": "7.1.1",
+    "BrockAllen.MembershipReboot.WebHost": "7.1.0",
+    "EntityFramework.Core": "7.0.0-rc1-final",
+    "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
+    "IdentityManager.MembershipReboot": "1.0.0-beta5-1",
+    "IdentityModelExtensions": "1.0.0",
+    "IdentityServer3.EntityFramework": "2.4.1",
+    "IdentityServer3.Integration.AspNet": "1.0.0-rc1",
+    "IdentityServer3.MembershipReboot": "2.0.0",
+    "Microsoft.AspNet.Authentication.Cookies": "1.0.0-rc1-final",
+    "Microsoft.AspNet.DataProtection": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Diagnostics": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Http": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Http.Abstractions": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Http.Features": "1.0.0-rc1-final",
+    "Microsoft.AspNet.IISPlatformHandler": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Localization": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
+    "Microsoft.AspNet.Owin": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Session": "1.0.0-rc1-final",
+    "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
+    "Microsoft.AspNetCore.Http.Abstractions": "1.0.0-rc2-20113",
+    "Microsoft.Extensions.Caching.Memory": "1.0.0-rc1-final",
+    "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
+    "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
+    "Microsoft.Extensions.Logging.Console": "1.0.0-rc1-final",
+    "Microsoft.Extensions.Logging.Debug": "1.0.0-rc1-final",
+    "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final",
+    "Microsoft.Extensions.PlatformAbstractions": "1.0.0-rc1-final",
+    "Microsoft.Framework.ConfigurationModel": "1.0.0-beta4",
+    "Microsoft.Framework.ConfigurationModel.Json": "1.0.0-beta4",
+    "Microsoft.Owin": "3.0.1",
+    "Microsoft.Owin.Security.Cookies": "3.0.1",
+    "Serilog": "1.5.14",
+    "Serilog.Sinks.Literate": "1.2.0",
+    "System.Collections": "4.0.11-beta-23516",
+    "System.ComponentModel": "4.0.1-beta-23516",
+    "System.ComponentModel.Annotations": "4.0.11-beta-23516",
+    "System.Globalization": "4.0.11-beta-23516",
+    "System.IO": "4.0.11-beta-23516",
+    "System.Reflection": "4.1.0-beta-23516",
+    "System.Runtime.Extensions": "4.0.11-beta-23516",
+    "System.Threading.Tasks": "4.0.11-beta-23516"
+  },
+
+  "commands": {
+    "web": "Microsoft.AspNet.Server.Kestrel"
+  },
+
+  "frameworks": {
+    "dnx451": { }
+  },
+
+  "exclude": [
+    "wwwroot",
+    "node_modules"
+  ],
+  "publishExclude": [
+    "**.user",
+    "**.vspscc"
+  ]
+}
